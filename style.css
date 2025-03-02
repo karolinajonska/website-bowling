@@ -1,0 +1,96 @@
+    body{
+        width: 1550px;
+        margin:0 auto;
+        padding:0;
+        /*display: flexbox;
+        flex-direction: column;*/
+    }
+            
+    html{
+        font-size: 20px;
+        color:white;
+        background-color: black;
+        background-image: url(ai_obraz1.webp);
+        background-repeat: no-repeat;
+        background-size: 90%;
+        background-position: center;  
+        background-attachment: fixed;
+     }
+         
+     section{
+        margin: 150px;
+        padding: 300px;
+        margin-top: 10px;
+        padding-top: 50px;
+        padding-bottom: 70px;
+        font-style: oblique;
+        font-weight: 300;
+        background: linear-gradient(to bottom, darkblue 0%, darkblue 100%);
+        filter: opacity(80%);
+     }
+
+     footer{ 
+        display: block;
+        height: 30px;
+        background: linear-gradient(to bottom, darkblue 0%, darkblue 100%);
+        filter: opacity(80%);
+     }
+
+     ol{
+        position: absolute;
+        top: 30px;
+        right:100px;
+        margin: 50px;
+	    padding: 50px;
+	    list-style-type: none;	
+        background-color: darkblue;
+        height: 10px;
+        line-height: 20px;
+        width: 700px;
+        text-align: center;        
+        font-family: Impact, fantasy;
+        margin-top: -30px;
+        background: linear-gradient(to bottom, darkblue 0%, black 100%);
+     }
+          
+     li{
+        display: inline;	
+     }
+          
+     li > a{
+        padding: 10px 16px 6px 16px;
+        border-radius:20px;
+        text-decoration: none;
+        color:azure;
+        border: 5px solid #330099;
+        background-color: #9966FF;
+        margin-right: 20px;
+        padding-top: 60px;
+        letter-spacing: 0.5px;
+     }
+          
+      h1{
+        font-family: fantasy;
+        font-style: oblique;
+        font-weight: 100;
+        font-size: 70px;
+        margin-left: 200px;
+        margin-top: 20px;
+        background: linear-gradient(to bottom, #6633CC 0%, azure 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+     }
+
+       h2{
+        font-family: fantasy;
+        font-style: oblique;
+        font-weight: 100;
+        font-size: 70px;
+        margin-left: 200px;
+        margin-top: 20px;
+        background: linear-gradient(to bottom, #6633CC 0%, azure 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+     }
+         
+          
